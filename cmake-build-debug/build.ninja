@@ -47,12 +47,12 @@ cmake_ninja_workdir = /Users/twonine/repositories/Cplus/game01/cmake-build-debug
 #############################################
 # Order-only phony target for game01
 
-build cmake_object_order_depends_target_game01: phony || .
+build cmake_object_order_depends_target_game01: phony || cmake_object_order_depends_target_ManagerLib
 
 build CMakeFiles/game01.dir/src/main.cpp.o: CXX_COMPILER__game01_unscanned_Debug /Users/twonine/repositories/Cplus/game01/src/main.cpp || cmake_object_order_depends_target_game01
   DEP_FILE = CMakeFiles/game01.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/twonine/repositories/Cplus/game01/include -I/Users/twonine/repositories/Cplus/game01/include/SDL2
+  INCLUDES = -I/Users/twonine/repositories/Cplus/game01/include -I/Users/twonine/repositories/Cplus/game01/include/cjson -I/Users/twonine/repositories/Cplus/game01/include/SDL2 -I/Users/twonine/repositories/Cplus/game01/src/Interface
   OBJECT_DIR = CMakeFiles/game01.dir
   OBJECT_FILE_DIR = CMakeFiles/game01.dir/src
 
@@ -64,12 +64,12 @@ build CMakeFiles/game01.dir/src/main.cpp.o: CXX_COMPILER__game01_unscanned_Debug
 #############################################
 # Link the executable bin/game01
 
-build bin/game01: CXX_EXECUTABLE_LINKER__game01_Debug CMakeFiles/game01.dir/src/main.cpp.o
+build bin/game01: CXX_EXECUTABLE_LINKER__game01_Debug CMakeFiles/game01.dir/src/main.cpp.o | src/libManagerLib.a || src/libManagerLib.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
-  LINK_LIBRARIES = -Wl,-rpath,/Users/twonine/repositories/Cplus/game01/lib  -lSDL2  -lSDL2_ttf  -lSDL2_mixer  -lSDL2_image  -lSDL2_gfx
+  LINK_LIBRARIES = -Wl,-rpath,/Users/twonine/repositories/Cplus/game01/lib  -lSDL2  -lSDL2_ttf  -lSDL2_mixer  -lSDL2_image  -lSDL2_gfx  -lcJSON  -lcJSON_utils  src/libManagerLib.a
   LINK_PATH = -L/Users/twonine/repositories/Cplus/game01/lib
   OBJECT_DIR = CMakeFiles/game01.dir
-  POST_BUILD = :
+  POST_BUILD = cd /Users/twonine/repositories/Cplus/game01/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E copy_directory /Users/twonine/repositories/Cplus/game01/resource /Users/twonine/repositories/Cplus/game01/cmake-build-debug/bin/resource
   PRE_LINK = :
   TARGET_FILE = bin/game01
   TARGET_PDB = game01.dbg
@@ -98,9 +98,74 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/twonine/repositories/Cplus/game01/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ManagerLib
+
+
+#############################################
+# Order-only phony target for ManagerLib
+
+build cmake_object_order_depends_target_ManagerLib: phony || .
+
+build src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o: CXX_COMPILER__ManagerLib_unscanned_Debug /Users/twonine/repositories/Cplus/game01/src/Interface/GameManager.cpp || cmake_object_order_depends_target_ManagerLib
+  DEP_FILE = src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/twonine/repositories/Cplus/game01/include -I/Users/twonine/repositories/Cplus/game01/include/cjson -I/Users/twonine/repositories/Cplus/game01/include/SDL2 -I/Users/twonine/repositories/Cplus/game01/src/Interface
+  OBJECT_DIR = src/CMakeFiles/ManagerLib.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ManagerLib.dir/Interface
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ManagerLib
+
+
+#############################################
+# Link the static library src/libManagerLib.a
+
+build src/libManagerLib.a: CXX_STATIC_LIBRARY_LINKER__ManagerLib_Debug src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/ManagerLib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/libManagerLib.a
+  TARGET_PDB = ManagerLib.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/twonine/repositories/Cplus/game01/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/twonine/repositories/Cplus/game01/cmake-build-debug/src && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/twonine/repositories/Cplus/game01 -B/Users/twonine/repositories/Cplus/game01/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
+build ManagerLib: phony src/libManagerLib.a
+
 build game01: phony bin/game01
+
+build libManagerLib.a: phony src/libManagerLib.a
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +175,14 @@ build game01: phony bin/game01
 #############################################
 # Folder: /Users/twonine/repositories/Cplus/game01/cmake-build-debug
 
-build all: phony bin/game01
+build all: phony bin/game01 src/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/twonine/repositories/Cplus/game01/cmake-build-debug/src
+
+build src/all: phony src/libManagerLib.a
 
 # =============================================================================
 # Built-in targets
@@ -119,14 +191,14 @@ build all: phony bin/game01
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/twonine/repositories/Cplus/game01/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/twonine/repositories/Cplus/game01/CMakeLists.txt /Users/twonine/repositories/Cplus/game01/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/twonine/repositories/Cplus/game01/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/twonine/repositories/Cplus/game01/CMakeLists.txt /Users/twonine/repositories/Cplus/game01/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
