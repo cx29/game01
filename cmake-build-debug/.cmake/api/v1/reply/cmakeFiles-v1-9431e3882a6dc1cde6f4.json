@@ -1,0 +1,595 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2staticTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2staticTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2staticTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2mainTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2mainTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2mainTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/sdlfind.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf/SDL2_ttfConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf/SDL2_ttfConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf/SDL2_ttf-static-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf/SDL2_ttf-static-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf/SDL2_ttf-static-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/freetype-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/freetype-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/freetype-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/freetype-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/freetype/freetype-targets-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindBZip2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/png/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPNG.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/SDL2_mixerConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/SDL2_mixerConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/PkgConfigHelper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/Vorbis/VorbisConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/Vorbis/VorbisConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/ogg/OggConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/ogg/OggConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/ogg/OggTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/ogg/OggTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/ogg/OggTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/Vorbis/VorbisTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/Vorbis/VorbisTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/Vorbis/VorbisTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack/wavpack-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack/wavpack-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack/wavpack-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack/wavpack-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack/wavpack-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/SDL2_mixer-static-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/SDL2_mixer-static-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer/SDL2_mixer-static-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image/SDL2_imageConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image/SDL2_imageConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image/SDL2_image-static-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image/SDL2_image-static-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image/SDL2_image-static-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx/sdl2-gfx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2staticTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/SDL2mainTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2/sdlfind.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx/sdl2-gfx-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx/sdl2-gfx-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx/sdl2-gfx-targets-release.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug",
+		"source" : "/Users/twonine/repositories/Cplus/game01"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
