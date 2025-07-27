@@ -17,8 +17,7 @@ find_package(SDL2-gfx CONFIG REQUIRED)
 message(STATUS "SDL2-gfx found at: ${SDL2-gfx_DIR}")
 add_subdirectory(src)
 
-add_executable(game01 src/main.cpp)
-
+add_executable(game01 MACOSX_BUNDLE src/main.cpp)
 
 add_custom_command(TARGET game01 POST_BUILD
 COMMAND ${CMAKE_COMMAND} -E copy_directory

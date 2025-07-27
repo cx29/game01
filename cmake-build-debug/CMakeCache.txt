@@ -260,6 +260,9 @@ PNG_LIBRARY_RELEASE:FILEPATH=/Users/twonine/repositories/Cplus/vcpkg/installed/a
 //Path to a file.
 PNG_PNG_INCLUDE_DIR:PATH=/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include
 
+//The directory containing a CMake configuration file for Python.
+Python_DIR:PATH=Python_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for SDL2-gfx.
 SDL2-gfx_DIR:PATH=/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx
 
@@ -510,6 +513,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_BZip2:INTERNAL=[optimized;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/lib/libbz2.a;debug;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/debug/lib/libbz2d.a][/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include][v1.0.8()]
 //Details about finding PNG
 FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[optimized;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/lib/libpng16.a;debug;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/debug/lib/libpng16d.a][/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include][v1.6.46()]
+//Details about finding Python
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.9.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
@@ -546,4 +551,15 @@ ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
 //Vcpkg root directory
 Z_VCPKG_ROOT_DIR:INTERNAL=/Users/twonine/repositories/Cplus/vcpkg
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
+//Path to a program.
+_Python_EXECUTABLE:INTERNAL=/usr/bin/python3
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;6;64;32;<none>;cpython-39-darwin;abi3;/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Library/Python/3.9/site-packages;/Library/Python/3.9/site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=dbc145b20b7638704ec7f03b9e96db87
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
 
