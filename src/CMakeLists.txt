@@ -3,9 +3,14 @@ project(ManagerLib)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Interface)
 
-file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/Interface/*.cpp")
+file(GLOB_RECURSE SOURCES
+        "${CMAKE_CURRENT_SOURCE_DIR}/Interface/*.cpp" ,
+        "${CMAKE_CURRENT_SOURCE_DIR}/UIComponent/*.cpp")
 
-add_library(ManagerLib ${SOURCES})
+add_library(ManagerLib ${SOURCES}
+        UIComponent/MenuPanel.cpp
+        UIComponent/ContentPanel.cpp
+        Interface/UIManager.cpp)
 
 target_include_directories(ManagerLib
         PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Interface

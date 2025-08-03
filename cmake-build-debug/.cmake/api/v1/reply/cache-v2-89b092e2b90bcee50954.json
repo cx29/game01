@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/twonine/repositories/Cplus/game01"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1383,7 +1383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug/src"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug/src"
 		},
 		{
 			"name" : "ManagerLib_IS_TOP_LEVEL",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/twonine/repositories/Cplus/game01/src"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01/src"
 		},
 		{
 			"name" : "Ogg_DIR",
@@ -1891,7 +1891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug"
 		},
 		{
 			"name" : "game01_IS_TOP_LEVEL",
@@ -1915,7 +1915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/twonine/repositories/Cplus/game01"
+			"value" : "/Volumes/Share/CodeRepo/Cplus/game01"
 		},
 		{
 			"name" : "wavpack_DIR",

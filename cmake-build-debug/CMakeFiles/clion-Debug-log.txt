@@ -1,5 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_TOOLCHAIN_FILE=/Users/twonine/repositories/Cplus/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S /Users/twonine/repositories/Cplus/game01 -B /Users/twonine/repositories/Cplus/game01/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_TOOLCHAIN_FILE=/Users/twonine/repositories/Cplus/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S /Volumes/Share/CodeRepo/Cplus/game01 -B /Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug
 -- SDL2-gfx found at: /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/sdl2-gfx
--- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/twonine/repositories/Cplus/game01/cmake-build-debug
+-- Configuring done (0.3s)
+-- Generating done (0.5s)
+-- Build files have been written to: /Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug

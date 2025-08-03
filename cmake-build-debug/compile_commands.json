@@ -1,14 +1,32 @@
 [
 {
-  "directory": "/Users/twonine/repositories/Cplus/game01/cmake-build-debug",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Users/twonine/repositories/Cplus/game01/src/Interface -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o CMakeFiles/game01.dir/src/main.cpp.o -c /Users/twonine/repositories/Cplus/game01/src/main.cpp",
-  "file": "/Users/twonine/repositories/Cplus/game01/src/main.cpp",
+  "directory": "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Volumes/Share/CodeRepo/Cplus/game01/src/Interface -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o CMakeFiles/game01.dir/src/main.cpp.o -c /Volumes/Share/CodeRepo/Cplus/game01/src/main.cpp",
+  "file": "/Volumes/Share/CodeRepo/Cplus/game01/src/main.cpp",
   "output": "CMakeFiles/game01.dir/src/main.cpp.o"
 },
 {
-  "directory": "/Users/twonine/repositories/Cplus/game01/cmake-build-debug",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Users/twonine/repositories/Cplus/game01/src/Interface -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o -c /Users/twonine/repositories/Cplus/game01/src/Interface/GameManager.cpp",
-  "file": "/Users/twonine/repositories/Cplus/game01/src/Interface/GameManager.cpp",
+  "directory": "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Volumes/Share/CodeRepo/Cplus/game01/src/Interface -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o -c /Volumes/Share/CodeRepo/Cplus/game01/src/Interface/GameManager.cpp",
+  "file": "/Volumes/Share/CodeRepo/Cplus/game01/src/Interface/GameManager.cpp",
   "output": "src/CMakeFiles/ManagerLib.dir/Interface/GameManager.cpp.o"
+},
+{
+  "directory": "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Volumes/Share/CodeRepo/Cplus/game01/src/Interface -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o src/CMakeFiles/ManagerLib.dir/Interface/UIManager.cpp.o -c /Volumes/Share/CodeRepo/Cplus/game01/src/Interface/UIManager.cpp",
+  "file": "/Volumes/Share/CodeRepo/Cplus/game01/src/Interface/UIManager.cpp",
+  "output": "src/CMakeFiles/ManagerLib.dir/Interface/UIManager.cpp.o"
+},
+{
+  "directory": "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Volumes/Share/CodeRepo/Cplus/game01/src/Interface -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o src/CMakeFiles/ManagerLib.dir/UIComponent/ContentPanel.cpp.o -c /Volumes/Share/CodeRepo/Cplus/game01/src/UIComponent/ContentPanel.cpp",
+  "file": "/Volumes/Share/CodeRepo/Cplus/game01/src/UIComponent/ContentPanel.cpp",
+  "output": "src/CMakeFiles/ManagerLib.dir/UIComponent/ContentPanel.cpp.o"
+},
+{
+  "directory": "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I/Volumes/Share/CodeRepo/Cplus/game01/src/Interface -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_ttf -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_mixer -I/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/SDL2_image -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include -isystem /Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include/SDL2 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics -o src/CMakeFiles/ManagerLib.dir/UIComponent/MenuPanel.cpp.o -c /Volumes/Share/CodeRepo/Cplus/game01/src/UIComponent/MenuPanel.cpp",
+  "file": "/Volumes/Share/CodeRepo/Cplus/game01/src/UIComponent/MenuPanel.cpp",
+  "output": "src/CMakeFiles/ManagerLib.dir/UIComponent/MenuPanel.cpp.o"
 }
 ]

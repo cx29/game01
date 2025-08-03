@@ -1,4 +1,4 @@
-# Install script for directory: /Users/twonine/repositories/Cplus/game01/src
+# Install script for directory: /Volumes/Share/CodeRepo/Cplus/game01/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

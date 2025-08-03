@@ -1,4 +1,5 @@
 #include "GameManager.h"
+#include "UIManager.h"
 
 //构造函数
 GameManager::GameManager() {
@@ -18,7 +19,7 @@ GameManager::GameManager() {
     SDL_SetHint(SDL_HINT_IME_SHOW_UI, "1");
 
     window = SDL_CreateWindow(u8"案例合集", SDL_WINDOWPOS_CENTERED,
-                              SDL_WINDOWPOS_CENTERED, 1280, 720, SDL_WINDOW_SHOWN);
+                              SDL_WINDOWPOS_CENTERED, 800, 720, SDL_WINDOW_SHOWN);
 
     // 硬件加速，垂直同步, 设置渲染目标为Texture（纹理，生成瓦片地图时用）
     render = SDL_CreateRenderer(window, -1,
@@ -26,6 +27,8 @@ GameManager::GameManager() {
                                 SDL_RENDERER_PRESENTVSYNC | // 垂直同步，防止画面撕裂
                                 SDL_RENDERER_TARGETTEXTURE); // 渲染目标可以是纹理， 允许离屏渲染
     std::cout << "GameManager Created" << std::endl;
+    //初始化UIManager
+    UIManager::getInstance().init(render);
 }
 
 // 整个软件入口
@@ -80,16 +83,19 @@ void GameManager::on_input() {
             }
             break;
         default:
+            UIManager::getInstance().handleEvent(event);
             break;
     }
 }
 
 //渲染画面（贴图，UI，地图等）
 void GameManager::on_render() {
+    UIManager::getInstance().render();
 }
 
 // 更新游戏状态（逻辑，动画，碰撞等）
 void GameManager::on_update(double delta) {
+    UIManager::getInstance().update(delta);
 }
 
 // 析构函数，防止内存泄露

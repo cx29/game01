@@ -74,14 +74,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ManagerLib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ManagerLib-Debug-b039eddf62dfb166d270.json",
+					"jsonFile" : "target-ManagerLib-Debug-dc83d83b1f595ac602f8.json",
 					"name" : "ManagerLib",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "game01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-game01-Debug-02baed47a10615eec2c3.json",
+					"jsonFile" : "target-game01-Debug-b189314dbe393e18c9db.json",
 					"name" : "game01",
 					"projectIndex" : 0
 				}
@@ -91,8 +91,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug",
-		"source" : "/Users/twonine/repositories/Cplus/game01"
+		"build" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+		"source" : "/Volumes/Share/CodeRepo/Cplus/game01"
 	},
 	"version" : 
 	{

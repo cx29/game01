@@ -609,8 +609,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/twonine/repositories/Cplus/game01/cmake-build-debug",
-		"source" : "/Users/twonine/repositories/Cplus/game01"
+		"build" : "/Volumes/Share/CodeRepo/Cplus/game01/cmake-build-debug",
+		"source" : "/Volumes/Share/CodeRepo/Cplus/game01"
 	},
 	"version" : 
 	{
