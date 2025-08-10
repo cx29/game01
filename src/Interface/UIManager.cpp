@@ -13,27 +13,34 @@ void UIManager::init(SDL_Renderer *renderer) {
     menu = new MenuPanel(renderer, 0, 0, 200, 720);
     content = new ContentPanel(renderer, 200, 0, 600, 720);
 
-    MenuItem item1;
-    item1.title = "Menu 1";
-    item1.children = {};
-    item1.expanded = false;
-    item1.onClick = [this]() {
-        SDL_Color color = {255, 0, 0, 255};
-        content->setColor(color);
-    };
+    //读取菜单配置文件
+    std::ifstream file("resource/config/menu_config.json");
+    if (!file.is_open()) {
+        throw std::runtime_error("Failed to open menu file");
+    }
 
-    MenuItem item2;
-    item2.title = "Menu 2";
-    item2.children = {};
-    item2.expanded = false;
-    item2.onClick = [this]() {
-        SDL_Color color = {0, 255, 0, 255};
-        content->setColor(color);
-    };
+    json config;
+    file >> config;
 
+    for (auto &itemData: config) {
+        MenuItem item;
+        item.title = itemData["title"].get<std::string>();
+        item.expanded = itemData.value("expanded", false);
 
-    menu->addMenuItem(item1);
-    menu->addMenuItem(item2);
+        auto colorArr = itemData["color"];
+        SDL_Color color = {
+            static_cast<Uint8>(colorArr[0]),
+            static_cast<Uint8>(colorArr[1]),
+            static_cast<Uint8>(colorArr[2]),
+            255
+        };
+
+        item.onClick = [this,color]() {
+            content->setColor(color);
+        };
+
+        menu->addMenuItem(item);
+    }
 }
 
 void UIManager::handleEvent(const SDL_Event &event) {

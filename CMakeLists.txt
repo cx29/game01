@@ -13,6 +13,7 @@ find_package(SDL2_ttf CONFIG REQUIRED)
 find_package(SDL2_mixer CONFIG REQUIRED)
 find_package(SDL2_image CONFIG REQUIRED)
 find_package(SDL2-gfx CONFIG REQUIRED)
+find_package(nlohmann_json CONFIG REQUIRED)
 
 message(STATUS "SDL2-gfx found at: ${SDL2-gfx_DIR}")
 add_subdirectory(src)
@@ -31,6 +32,7 @@ target_link_libraries(game01
         SDL2_mixer::SDL2_mixer-static
         SDL2_image::SDL2_image-static
         SDL2::SDL2_gfx
+        nlohmann_json::nlohmann_json
         ManagerLib
 )
 

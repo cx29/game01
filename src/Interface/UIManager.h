@@ -8,6 +8,10 @@
 #include "../UIComponent/MenuPanel.h"
 #include "../UIComponent/ContentPanel.h"
 #include <SDL.h>
+#include<fstream>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
 
 class UIManager : public Manager<UIManager> {
     friend class Manager<UIManager>;

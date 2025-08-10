@@ -24,6 +24,7 @@ class MenuPanel {
 public:
     //构造函数，传入渲染器和面板的位置和大小
     MenuPanel(SDL_Renderer *renderer, int x, int y, int width, int height);
+
     ~MenuPanel();
 
     // 处理SDL事件（鼠标点击事件）
@@ -39,12 +40,31 @@ public:
     void addMenuItem(const MenuItem &item);
 
 private:
+    // 渲染的相关属性
+    struct RenderEntry {
+        MenuItem *item;
+        SDL_Rect rect; //背景的矩形， 相对于窗口的坐标
+        int depth;
+        int textW;
+        int textH;
+    };
+
+    std::vector<RenderEntry> layoutEntries;
+    bool needsLayout = true;
+    int paddingX = 20;
+    int paddingY = 10;
+
+
     SDL_Renderer *renderer; //SDL渲染器
     int x, y, width, height; //面板的坐标和尺寸
     std::vector<MenuItem> items; // 顶级菜单项列表
     int itemHeight = 30; // 每个菜单项的高度
     TTF_Font *font;
     SDL_Color textColor = {255, 255, 255, 255};
+
+    void rebuildLayout();
+
+    void layoutItemRecursive(MenuItem *item, int &offsetY, int depth);
 
     // 递归渲染一个菜单项以及其子项
     void renderItem(const MenuItem &item, int &offsetY, int depth);

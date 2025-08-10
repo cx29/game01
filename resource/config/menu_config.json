@@ -1,0 +1,29 @@
+[
+  {
+    "title": "菜单1",
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "expanded": false
+  },
+  {
+    "title": "菜单2",
+    "color": [
+      0,
+      255,
+      0
+    ],
+    "expanded": false
+  },
+  {
+    "title": "菜单3",
+    "color": [
+      0,
+      123,
+      222
+    ],
+    "expanded": false
+  }
+]

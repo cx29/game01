@@ -348,6 +348,9 @@ game01_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 game01_SOURCE_DIR:STATIC=/Volumes/Share/CodeRepo/Cplus/game01
 
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/nlohmann_json
+
 //The directory containing a CMake configuration file for wavpack.
 wavpack_DIR:PATH=/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/wavpack
 
@@ -519,6 +522,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3][cfound component
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/lib/libz.a;debug;/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/debug/lib/libz.a][/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/include][c ][v1.3.1()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/Users/twonine/repositories/Cplus/vcpkg/installed/arm64-osx/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.3()]
 //ADVANCED property for variable: FREETYPE_LIBRARY_DEBUG
 FREETYPE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //vcpkg
